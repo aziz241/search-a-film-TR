@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sidebar {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.sidebar form {
+  text-align: center;
+}
+.sidebar form input,
+.sidebar form button {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.films {
+  text-align: center;
+  width: 50%;
+}
+.film-list-film {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+
+  width: 100%;
+}
+.film-list-film img {
+  width: 60px;
+
+  height: auto;
+}
+.film-list-detay {
+  width: 50%;
+}
+.margin-top-5 {
+  margin-top: 5px;
+}
+.film-list {
+  height: 800px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.buton-sec {
+  padding: 0.3rem 2rem;
+  margin: 0;
+}
+.film-detay {
+  width: 50%;
+}
+.film-list-film img {
+  width: auto;
+  height: 300px;
+}
+.panel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+.film-detay-bilgi img {
+  width: 50%;
+  height: auto;
+}
+.film-detay-bilgi span {
+  padding: 2rem;
+  display: block;
+}
+.getmylist {
+  width: 100%;
+  margin-top: 30px;
+}
+.myList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.myList button {
+  width: auto;
+}
+.myList-img {
+  width: 20%;
+}
+.myList-img img {
+  width: 40%;
+}
+.myList-detay {
+  width: 50%;
+  margin-top: 10px;
+}
+.selected {
+  background-color: antiquewhite;
+}
